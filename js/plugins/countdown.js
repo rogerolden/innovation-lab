@@ -41,24 +41,24 @@
 
             //conditional Ss
             if (days == 1) {
-                thisEl.find(".timeRefDays").text("day");
+                thisEl.find(".timeRefDays").text("dag");
             } else {
-                thisEl.find(".timeRefDays").text("days");
+                thisEl.find(".timeRefDays").text("dager");
             }
             if (hours == 1) {
-                thisEl.find(".timeRefHours").text("hour");
+                thisEl.find(".timeRefHours").text("time");
             } else {
-                thisEl.find(".timeRefHours").text("hours");
+                thisEl.find(".timeRefHours").text("timer");
             }
             if (minutes == 1) {
-                thisEl.find(".timeRefMinutes").text("minute");
+                thisEl.find(".timeRefMinutes").text("minutt");
             } else {
-                thisEl.find(".timeRefMinutes").text("minutes");
+                thisEl.find(".timeRefMinutes").text("minutter");
             }
             if (seconds == 1) {
-                thisEl.find(".timeRefSeconds").text("second");
+                thisEl.find(".timeRefSeconds").text("sekund");
             } else {
-                thisEl.find(".timeRefSeconds").text("seconds");
+                thisEl.find(".timeRefSeconds").text("sekunder");
             }
 
             //logic for the two_digits ON setting
