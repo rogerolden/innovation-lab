@@ -81,7 +81,7 @@ Surjith S M / @surjithctly
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#top">Hjem</a></li>
-                    <li><a href="#schedule">Skjema</a></li>
+                    <li><a href="#schedule">Program</a></li>
                     <li><a href="#gallery">Fra tidligere event</a></li>
                     <li><a href="#pricing">Kjøp Biljett</a></li>
                     <li><a href="#sponsors" class="hidden-sm">Sponsorer</a></li>
@@ -111,7 +111,7 @@ Surjith S M / @surjithctly
 
             <div class="header_bottom-bg">
                 <a class="btn btn-default btn-xl wow zoomIn" data-wow-delay="0.3s" href="#" data-toggle="modal" data-target="#eventbrite-register">RESERVER DIN PLASS</a>
-                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s"><small>Vær Rask! Bare noen få plasser igjen</small></p>
+                <p class="cta_urgency wow fadeIn" data-wow-delay="0.5s">xVær Rask! Bare noen få plasser igjen</small></p>
             </div>
 
         </div>
@@ -187,7 +187,7 @@ Surjith S M / @surjithctly
 
         <div class="container">
             <div class="section-title wow fadeInUp">
-                <h4>Skjema</h4>
+                <h4>Program</h4>
             </div>
 
             <div class="nav-center">
@@ -439,8 +439,8 @@ Surjith S M / @surjithctly
 
         <div class="container">
             <div class="section-title wow fadeInUp">
-                <h4>Vad säger tidigare deltagare? #innovationlab</h4>
-                <p>Dom älskade det. Se vad tidigare deltagare har sagt.</p>
+                <h4>  Hva sier tidligere deltakere? #innovationlab</h4>
+                <p>De elsket det. Se hva tidligere deltakere har sagt.</p>
             </div>
 
             <div class="row">
@@ -608,7 +608,7 @@ Surjith S M / @surjithctly
                             <li> Transport fra Halden til Fredrikstad.</li>
                             <li> Avsluttes med middag og fest!</li>
                         </ul>
-                        <a class="btn btn-success btn-lg" href="#">Reserver biljett</a>
+                        <a class="btn btn-success btn-lg" href="#">Reserver bilett</a>
                     </div>
                 </div>
                  </div>
@@ -702,80 +702,13 @@ Surjith S M / @surjithctly
 
     <div class="g-maps" id="venue">
 
-        <!-- Tip:  You can change location, zoom, color theme, height, image and Info text by changing data-* attribute below. -->
-        <!-- Available Colors:    red, orange, yellow, green, mint, aqua, blue, purple, pink, white, grey, black, invert -->
-
-        <div class="map" id="map_canvas" data-maplat="59.2117841" data-maplon="10.9290667" data-mapzoom="2" data-color="mint" data-height="400" data-img="images/marker.png" data-info="Stockholm, Sweden"></div>
+<iframe width="100%" height="400" frameborder="0" style="border:0; pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.2531031965675!2d10.929066715723925!3d59.211784127484236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464402d9041a00ed%3A0xd55e0b5d95249d42!2sKobberslagerstredet+5%2C+1671+Fredrikstad!5e0!3m2!1sen!2sno!4v1475013724144"></iframe>
 
     </div>
     <!-- end div.g-maps -->
 
     <!-- ::: BEGIN-VENUE ::: -->
-    <section id="directions" class="directions vertical-space-lg">
 
-        <div class="container">
-            <div class="section-title wow fadeInUp top-space-sm">
-                <h4>FÅ REISEPLAN</h4>
-                <p>Skriv hvor du drar fra og reisemåte fra det venstre feltet for å se reiseplan</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-6">
-
-                    <form action="/routebeschrijving" onSubmit="calcRoute();return false;" id="routeForm">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="routeStart">Fra</label>
-                                    <input type="text" id="routeStart" class="form-control" placeholder="Oslo">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="routeVia">Via<small>(Optional)</small> </label>
-                                    <input type="text" class="form-control" id="routeVia" value="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="sr-only">Reisemåte</label>
-
-                            <label class="radio-inline" for="travelMode1">
-                                <input type="radio" name="travelMode" id="travelMode1" value="DRIVING" checked /> Kjøre
-                            </label>
-                            <label class="radio-inline" for="travelMode2">
-                                <input type="radio" name="travelMode" id="travelMode2" value="BICYCLING" /> Sykkel
-                            </label>
-                            <label class="radio-inline" for="travelMode3">
-                                <input type="radio" name="travelMode" id="travelMode3" value="TRANSIT" /> Offentlig
-                            </label>
-                            <label class="radio-inline" for="travelMode4">
-                                <input type="radio" name="travelMode" id="travelMode4" value="WALKING" /> Gå
-                            </label>
-
-                        </div>
-                        <div class="form-group text-center">
-                            <button type="submit" class="btn btn-success btn-block"><i class="fa fa-location-arrow"></i> Få Reiseplan </button>
-                        </div>
-                    </form>
-
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="directions-results">
-
-                        <div id="directionsPanel">
-                            <div class="direction-text">Enter Direction from and Travel Mode from the left form to see directions. </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!--end-of-row-->
-        </div>
-
-    </section>
     <!-- ::: END MAP ::: -->
 
     <!--
@@ -790,10 +723,13 @@ Surjith S M / @surjithctly
                     <div class="contact-box">
                         <img src="images/location-icon.png" alt="location icon" class="wow zoomIn">
                         <h5>ADRESSE</h5>
-                        <p>Kobberslagerstredet 5
+                          <a href="https://goo.gl/maps/AW1vXZDmXLA2">
+                            <p>Kobberslagerstredet 5
                             <br>1671 Fredrikstad
                             <br>Norge
-                            <br></p>
+                            <br>
+                          </a>
+                            </p>
                     </div>
                 </div>
                 <div class="col-sm-6">
