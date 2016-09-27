@@ -358,6 +358,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/creative.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.63801e+06,
+		"inputAbbreviatedPath": "\/images\/creative.jpg",
+		"outputAbbreviatedPath": "\/images\/creative.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/customer-img-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
